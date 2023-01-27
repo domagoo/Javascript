@@ -1,0 +1,31 @@
+.container
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h2
+{
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+    color: grey;
+    text-shadow: 6px 2px 8px gold;
+}
+
+.flex-box-rps
+{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.flex-box-rps img:hover
+{
+    box-shadow: 0px 10px 50px rgba(37, 50, 223, 1);
+}
+
+
